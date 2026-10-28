@@ -1,0 +1,12 @@
+:root { --bg: #141a33; --panel: #1f2a4d; --ink: #f4ead2; --muted: #b9b3a3; --amber: #ffc463; --green: #7cbf5a; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+header { display: flex; align-items: center; gap: 16px; margin-bottom: 24px; }
+header img { width: 72px; height: 72px; border-radius: 16px; image-rendering: pixelated; }
+h1 { font-size: 26px; margin: 0; color: var(--amber); }
+h2 { font-size: 19px; color: var(--green); margin-top: 32px; }
+a { color: var(--amber); }
+nav { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 24px; }
+.panel { background: var(--panel); border: 3px solid #0b0f20; border-radius: 6px; padding: 16px 20px; }
+.muted { color: var(--muted); font-size: 14px; }
